@@ -12,7 +12,7 @@ h1 {
   margin: 0 auto;
   margin-bottom: 0.2em;
   font-size: 3rem;
-  color: white;
+  /* color: white; */
   font-family: serif;
 }
 
@@ -23,7 +23,7 @@ h2 {
 h3 {
   margin: 0.7em 0;
   font-weight: 100;
-  color: white;
+  /* color: white; */
 }
 
 p {
@@ -43,10 +43,15 @@ b {
 
 /* -------- header section -------- */
 
-header {
-  background-color: rgb(63, 63, 63);
+.header {
+  /* background-color: rgb(63, 63, 63); */
   padding: 2em;
   text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
 }
 
 /* -------- body section -------- */
