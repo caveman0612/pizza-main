@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(233, 233, 233);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ header {
     margin: 2em;
     width: 350px;
     height: 200px;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(155, 160, 240);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,6 +44,24 @@ header {
   ol {
     text-align: left;
     width: 300px;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  details {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    summary {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+      margin: 0;
+    }
   }
 }
 

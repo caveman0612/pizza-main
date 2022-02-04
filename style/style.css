@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: #e9e9e9;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -27,7 +27,7 @@ header .card {
   margin: 2em;
   width: 350px;
   height: 200px;
-  background-color: #424242;
+  background-color: #9ba0f0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,6 +72,32 @@ header .card h2 {
 .intro ol {
   text-align: left;
   width: 300px;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+}
+
+.projects details {
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.projects details summary {
+  text-align: left;
+}
+
+.projects details p {
+  text-align: left;
+  margin: 0;
 }
 
 .about {
