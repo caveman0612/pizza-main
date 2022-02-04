@@ -1,0 +1,109 @@
+body {
+  background-color: lightgray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+header {
+  margin-top: 3em;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+header .card {
+  margin: 2em;
+  width: 350px;
+  height: 200px;
+  background-color: #424242;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+}
+
+header .card h1,
+header .card h2 {
+  color: lightgray;
+  -webkit-transform: translateZ(30px);
+          transform: translateZ(30px);
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.intro ol {
+  text-align: left;
+  width: 300px;
+}
+
+.about {
+  width: 500px;
+}
+
+.about p {
+  text-align: left;
+  margin: 2em 0;
+}
+
+.contact {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact ul {
+  width: 300px;
+}
+
+footer {
+  width: 100%;
+  background-color: #424242;
+  color: lightgray;
+}
+/*# sourceMappingURL=style.css.map */
