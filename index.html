@@ -35,7 +35,7 @@
         data-tilt-reverse="true"
       >
         <h1>Kyle Stinar</h1>
-        <h2>Front End Developer</h2>
+        <h2>Software Developer</h2>
       </div>
     </header>
 
@@ -60,14 +60,43 @@
       <section class="projects">
         <h2>Projects</h2>
         <details>
-          <summary>Trello Clone</summary>
+          <summary>
+            Trello Clone <a href="#">GitHub</a> <a href="#">Live</a>
+            <p>This is a trello clone</p>
+          </summary>
           <hr />
-          <p>This is a trello clone</p>
+          <div class="drop_down">
+            <ul>
+              <h3>Technologies</h3>
+              <li>Typescript</li>
+              <li>React</li>
+            </ul>
+            <ul>
+              <h3>Challenges</h3>
+              <li>working with complexe state</li>
+              <li>trouble shooting react</li>
+            </ul>
+          </div>
         </details>
         <details>
-          <summary>Eccomerce website</summary>
+          <summary>
+            Eccomerce website <a href="#">GitHub</a> <a href="#">Live</a>
+            <p>This is a Eccomerce website</p>
+          </summary>
           <hr />
-          <p>This is a Eccomerce website</p>
+
+          <div class="drop_down">
+            <ul>
+              <h3>Technologies</h3>
+              <li>Typescript</li>
+              <li>React</li>
+            </ul>
+            <ul>
+              <h3>Challenges</h3>
+              <li>working with complexe state</li>
+              <li>trouble shooting react</li>
+            </ul>
+          </div>
         </details>
       </section>
       <hr />
@@ -131,18 +160,9 @@
     </main>
 
     <footer>
-      <p>Copyright &#169; 2022</p>
+      <p>Copyright &#169; <span class="year"></span></p>
     </footer>
     <script src="vanilla-tilt.js"></script>
-    <!-- <script type="text/javascript">
-      VanillaTilt.init(document.querySelector(".your-element"), {
-        max: 25,
-        speed: 400,
-      });
-
-      //It also supports NodeList
-      VanillaTilt.init(document.querySelectorAll(".your-element"));
-    </script> -->
-    <!-- <script type="text/javascript" src="#"></script> -->
+    <script src="./script.js"></script>
   </body>
 </html>

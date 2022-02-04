@@ -29,7 +29,7 @@ header {
     h1,
     h2 {
       color: black;
-      transform: translateZ(30px);
+      transform: translateZ(50px);
     }
   }
 }
@@ -51,18 +51,30 @@ header {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  margin-bottom: 2em;
 
   details {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 1em;
     padding: 1em;
-    summary {
-      text-align: left;
-    }
+    text-align: left;
     p {
-      text-align: left;
+      margin: 0.5em 0 0 0;
+    }
+  }
+
+  .drop_down {
+    display: flex;
+    text-align: left;
+
+    ul {
       margin: 0;
+      h3 {
+        font-weight: 300;
+        text-decoration: underline;
+        margin: 0;
+      }
     }
   }
 }
